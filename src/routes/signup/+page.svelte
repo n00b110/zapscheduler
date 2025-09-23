@@ -8,6 +8,15 @@
     }
 </script>
 
+<nav class="w-full bg-blue-600 text-white px-6 py-4 flex justify-between items-center">
+    <a href="/" class="font-bold text-xl">ZapScheduler</a>
+    <div class="flex gap-4">
+        <a href="/signup" class="hover:underline">Sign Up</a>
+        <a href="/login" class="hover:underline">Login</a>
+        <a href="/schedule" class="hover:underline">Schedule</a>
+    </div>
+</nav>
+
 <main class="max-w-md mx-auto mt-8 p-8 border border-gray-200 rounded-lg shadow bg-white flex justify-center arrange-center">
     <h1 class="text-2xl font-bold mb-6 text-center">Login</h1>
     <form on:submit|preventDefault={handleLogin} class="space-y-4">
