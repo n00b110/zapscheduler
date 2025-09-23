@@ -2,6 +2,17 @@
   // You can later add props or load data here if needed
 </script>
 
+<nav
+  class="w-full to-white text-white px-6 py-4 flex justify-between items-center bg-gray-50"
+>
+  <a href="/" class="font-bold text-xl">ZapScheduler</a>
+  <div class="flex gap-4">
+    <a href="/signup" class="hover:underline">Sign Up</a>
+    <a href="/login" class="hover:underline">Login</a>
+    <a href="/schedule" class="hover:underline">Schedule</a>
+  </div>
+</nav>
+
 <section class="min-h-screen flex flex-col">
   <!-- Hero Section -->
   <div class="flex-1 flex flex-col items-center justify-center bg-gradient-to-b from-blue-50 to-white px-6 text-center">
