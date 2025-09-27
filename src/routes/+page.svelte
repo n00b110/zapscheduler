@@ -3,13 +3,14 @@
 </script>
 
 <nav
-  class="w-full to-white text-white px-6 py-4 flex justify-between items-center bg-gray-50"
+  class="w-full to-white text-gray-900 px-6 py-4 flex justify-between items-center bg-gray-50"
 >
   <a href="/" class="font-bold text-xl">ZapScheduler</a>
   <div class="flex gap-4">
+    <a href="/signup" class="hover:underline">Pricing</a>
     <a href="/signup" class="hover:underline">Sign Up</a>
     <a href="/login" class="hover:underline">Login</a>
-    <a href="/schedule" class="hover:underline">Schedule</a>
+    <a href="/schedule" class="hover:underline hover:">Schedule</a>
   </div>
 </nav>
 

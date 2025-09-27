@@ -9,7 +9,7 @@
 </script>
 
 <nav
-  class="w-full bg-blue-600 text-white px-6 py-4 flex justify-between items-center"
+  class="w-full bg-blue-600 text-gray-900 px-6 py-4 flex justify-between items-center"
 >
   <a href="/" class="font-bold text-xl">ZapScheduler</a>
   <div class="flex gap-4">
